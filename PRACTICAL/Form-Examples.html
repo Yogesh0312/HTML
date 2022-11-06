@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            background: linear-gradient(cyan, orange, red);
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <div>
+                <label for="Firstname">First name</label>
+                <input type="text" name="firstname" id="Firstname">
+            </div>
+            <br>
+            <div>
+                <lable for="Lastname">Last name</lable>
+                <input type="text" name="Lastname" id="Lastname">
+            </div>
+            <br>
+            <div>
+                <lable for="Email">Email</lable>
+                <input type="email" name="Email" id="Email">
+            </div>
+            <br>
+            <div>
+                <lable for="Number">Mobile Number</lable>
+                <input type="tel" name="Number" id="Mobile Number">
+            </div>
+            <br>
+            <div>
+                <lable for="gender">Gender</lable>
+                <input type="radio" name="gender" id="male">Male
+                <input type="radio" name="gender" id="female">Female
+                <input type="radio" name="gender" id="other">Other
+            </div>
+            <br>
+            <div>
+                <lable for="date">Date Of Birth</lable>
+                <input type="date" name="date" id="birthdate">
+            </div>
+            <br>
+            <div>
+                <lable for="address">Address</lable>
+                <textarea name="address" cols="20" rows="5" id="My Address"></textarea>
+            </div>
+            <br>
+            <div>
+                <lable for="file">Choose File</lable>
+                <input type="file" name="file" id="my files">
+            </div>
+            <br>
+            <div>
+                <lable for="color">Select Color</lable>
+                <input type="color" name="color" id="color">
+            </div>
+            <br>
+            <div>
+                <lable for="range">Select Range</lable>
+                <input type="range" name="range" id="Range">
+            </div>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>

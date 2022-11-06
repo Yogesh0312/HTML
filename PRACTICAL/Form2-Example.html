@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        fieldset {
+            background: linear-gradient(cyan, rgb(27, 144, 160), rgb(189, 80, 152));
+            height: 600px;
+            width: 500px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Student Registration Form</legend>
+            <br>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname">
+            <br><br>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname">
+            <br><br>
+            <label for="email">Email ID</label>
+            <input type="email" name="Email id" id="email">
+            <br><br>
+            <label for="Number">Mobile Number</label>
+            <input type="number">
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male">Male
+            <input type="radio" name="gender" id="female">Female
+            <input type="radio" name="gender" id="Other">Other
+            <br><br>
+            <label for="date">Date Of Birth(DOB)</label>
+            <input type="date" name="Bdate" id="date">
+            <br><br>
+            <label for="address">Address</label><br>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            <br><br>
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <option value="ahmedabad">Ahmedabad</option>
+                <option value="gandhinagar">Gandhinagar</option>
+                <option value="vadodara">Vadodara</option>
+                <option value="surat">Surat</option>
+            </select>
+            <br><br>
+            <label for="pincode">Pincode:</label>
+            <input type="number" id="pincode" maxlength="6">
+            <br><br>
+            <label for="country">Country:</label>
+            <select name="country" id="Country">
+                <option value="india">India</option>
+                <option value="australia">Australia</option>
+                <option value="america">America</option>
+                <option value="canada">Canada</option>
+            </select>
+            <br><br>
+            <label for="hobby">Hobby:</label>
+            <input type="checkbox">Cricket
+            <input type="checkbox">Gaming
+            <input type="checkbox">Cyceling
+            <input type="checkbox">Tracking
+            <input type="checkbox">Travelling
+            <br><br>
+            <label for="Education">Qualification:</label>
+            <input type="checkbox">10th
+            <input type="checkbox">12th
+            <input type="checkbox">Bachelors
+            <input type="checkbox">Masters
+            <input type="checkbox">Phd
+            <br><br>
+            <label for="Courses">Courses Applied For:</label>
+            <input type="checkbox">BCA
+            <input type="checkbox">B.Com
+            <input type="checkbox">B.Sc
+            <input type="checkbox">BA
+            <input type="checkbox">MCA
+            <input type="checkbox">M.Com
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+            <input type="reset" value="cancel">
+        </fieldset>
+    </form>
+</body>
+
+</html>

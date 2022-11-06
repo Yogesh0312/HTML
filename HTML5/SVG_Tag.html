@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Tag</title>
+</head>
+<style>
+    .main,
+    .main2 {
+        width: 100px;
+        height: 100px;
+        border: 1px solid green;
+    }
+
+    .main3 {
+        width: 150px;
+        height: 150px;
+        border: 1px solid green;
+    }
+</style>
+
+<body>
+    <!-- SVG stands for Scalable Vector Graphics
+SVG is used to define graphics for the Web
+SVG is a W3C recommendation -->
+    <svg class="main">
+        <rect rx="10px" x="10px" y="10px" width="80px" height="80px" fill="yellow" stroke="red" stroke-width="5px" />
+    </svg>
+
+    <svg class="main2">
+        <circle cx="50px" cy="50px" r="40px" fill="yellow" stroke="red" stroke-width="5px" />
+    </svg>
+
+    <svg class="main3">
+        <polygon points="70,116 93,130 86,152 57,152 52,130" fill="yellow" stroke="red" stroke-width="3px" cx="50px"
+            cy="20px"></polygon>
+    </svg>
+</body>
+
+</html>
